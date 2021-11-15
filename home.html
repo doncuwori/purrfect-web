@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purrfect Kimbap</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="https://kit.fontawesome.com/73b8d8c3c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!--
+    <div class="splash">
+        <h1 class="fade-in">Halo, Buddies!</h1>
+    </div>
+    -->
+
+    <!--Header-->
+    <header>
+        <div class="bg-head">
+                <h1 class="toko">Purrfect Kimbap</h1>
+                <p class="slogan">Tasty yet Affordable!</p>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="#product">Product</a>
+                </li>
+                <li>
+                    <a href="#about">About Us</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+         
+            <div class="menu-toggle"> <!--toogle tuh kaya saklar jd bisa di klik on off
+                span u/ buat garis2 kt hamburgernya-->
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+       
+
+        </nav>
+    </header>
+    <!--Akhir header-->
+    
+   
+    <main>
+    <div class="content">
+    <!--Kimbap Ori-->
+    <article id="product">
+        <section class="ori">
+            <img src="img/ori2.png" alt="Kimbap Original" class="original">
+            <h1 class="judulSection">
+            Kimbap Original
+            </h1>
+            <h3 class="harga"> Rp15.000 - 20.000</h3>         
+            <hr>
+            <p class="artikel">
+            Kimbap Original ini berisi fishroll/crabstick, telur, wortel, timun jepang, serta selada yang kemudian dibungkus dengan nasi dan nori! Kimbap ini akan semakin nikmat ketika kalian makan dengan menggunakan shoyu dan mayonaise yang kami berikan loh! Ayo cobain deh, mimin aja sampe ngiler nih :)!
+            </p>
+        </section>
+    </article>
+
+    <!--Kimbap Mentai-->
+     <article id="Mentai">
+        <section class="men">
+            <img src="img/men.png" alt="Kimbap Mentai" class="mentai">
+            <h1 class="judulSection">
+            Kimbap Mentai
+            </h1>
+            <h3 class="harga"> 20.000 - 25.000</h3><hr>
+            <p class="artikel">
+            Kimbap Mentai ini berisi fishroll/crabstick, telur, wortel, timun jepang, serta selada yang kemudian dibungkus dengan nasi dan nori!Eitss, bukan cuma itu, diatas kimbap ini akan dibaluri dengan saus mentai juga loh! Duh, pasti udah kebayangkan gimana enaknya :P Ayo cobain deh, mimin aja sampe ngiler nih :)!
+             </p>
+        </section>
+    </article>
+
+    <!--Kimbap Yangnyeom-->
+    <article id="Yangnyeom">
+        <section class="yang">
+         <img src="img/yang.png" alt="Kimbap Yangnyeom" class="yangnyeom">
+         <h1 class="judulSection">Kimbap Yangnyeom</h1>
+            <h3 class="harga">25.000 - 28.000</h3>   
+            <hr>
+            <p class="artikel">
+            Kimbap Yangnyeom ini berisi ayam yang dimarinasi dengan cinta dan dibalur dengan saus gochujang yang nikmat, telur, wortel, timun jepang, serta selada yang kemudian dibungkus dengan nasi dan nori! Duh, pasti udah kebayangkan gimana enaknya :P Ayo cobain sekarang, mimin aja sampe ngiler nih :)!
+            </p>
+        </section>
+    </article>
+             <!--Bagaian About Us-->
+    <article id="about">
+        <section class="abt">
+        <h1 class="judulSection">About Us</h1><br>
+        <hr>
+        <p class="artikel">
+            Purrfect Kimbap adalah sebuah UMKM online yang didirikan di Depok sejak tahun 2020. Kami mendirikan usaha ini dengan tujuan untuk menjual kimbap halal dengan harga yang terjangkau dan memiliki cita rasa yang nikmat.
+            <br><br>
+            Sejak berdirinya usaha ini, Purrfect Kimbap selalu berkomitmen untuk mengedepankan pelayanan dan kepuasan pelanggan, serta selalu berusaha menyajikan kimbap terbaik dengan menggunakan bahan-bahan yang berkualitas.
+        </p>
+        
+        <!--Bagaian akhir About Us-->
+        </section>
+    </article>
+
+<article id="contact">
+    <section class="contact">
+        <h1 class="judulSection">Contact</h1><br><br>
+        <div class="row">
+            <div class="input-group">
+                <input type="text" id="nama" required>
+                <label for="nama"><i class="fas fa-user"></i>  Masukkan Nama</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="no-telp" required>
+                <label for="no-telp"><i class="fas fa-phone-alt"></i>  No.Handphone</label>
+            </div>
+        </div>
+        <div class="input-group">
+            <input  type="text" id="alamat" required>
+            <label for="alamat"><i class="fas fa-map-pin"></i>  Alamat</label>
+        </div>
+        <div class="input-group">
+            <textarea id="pesanan" rows="10" required></textarea>
+            <label for="pesanan"><i class="fas fa-utensils"></i>  Pesanan Anda</label>
+        </div>
+        <button type="submit">Submit</button>
+    </section>
+</article>
+
+<!--Profile-->
+<article id="profile">
+    <section class="prof">
+        <div class="isi-profile">
+            <img class="profile-pic" src="img/bat.jpeg" alt="Profile Picture">
+            <h1>About Me</h1><br>
+            <h3>Khaliza Fania</h3>
+            <h3>Panggil aja cantik nanti aku nengok :)</h3>
+            <h3>Bismillah 2022 jago ngoding!</h3>
+            <h3 class="credits"><i class="fab fa-instagram"></i> khalizafania</h3>
+        </div>
+    </section>
+</article>
+<!--Akhir Profile-->
+</div>
+</main>
+
+<footer>
+    <h2 class="credits"><i class="fab fa-instagram"></i> purrfect.kimbap</h2>
+</footer>
+<script src="Script/splash.js"></script>
+</body>
+</html>
